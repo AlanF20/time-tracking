@@ -27,7 +27,7 @@ body{
   background-color: var(--Very-dark);
   flex-direction: column;
   font-family: 'Rubik', sans-serif;
-
+  gap: 20px;
 }
 .main{
   width: 90%;
@@ -35,6 +35,7 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 20px;
 }
 .main__profile{
   width: 100%;
@@ -47,7 +48,7 @@ body{
 .main__profile-container{
   width: 90%;
   display: flex;
-  background-color: var(--Desaturated-blue);
+  background-color: var(--Blue);
   padding: 20px;
   border-radius: 15px;
   justify-content: center;
@@ -91,6 +92,78 @@ body{
   list-style: none;
   font-size: 1.6rem;
   color: var(--Pale-Blue);
+}
+.main__cards{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.main__cards-template{
+  width: 90%;
+}
+.main__cards-template-background{
+  width: 100%;
+  padding: 25px;
+  border-radius: 10px;
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+.Work{
+  background-color: var(--Soft-orange);
+  background-image: url("./images/icon-work.svg");
+}
+.Play{
+  background-color: var(--Pale-Blue);
+  background-image: url("./images/icon-play.svg");
+}
+.Study{
+  background-color: var(--Light-red);
+  background-image: url("./images/icon-study.svg");
+}
+.Exercise{
+  background-color: var(--Lime-green);
+  background-image: url("./images/icon-exercise.svg");
+}
+.Social{
+  background-color: var(--Violet);
+  background-image: url("./images/icon-social.svg");
+}
+.Self{
+  background-color: var(--Soft-orange);
+  background-image: url("./images/icon-self-care.svg");
+}
+.main__cards-template-data{
+  width: 100%;
+  padding: 15px;
+  margin-top: -20px;
+  border-radius: 15px;
+  background-color: var(--Dark-blue);
+}
+.main__cards-template-data-header,
+.main__cards-template-data-content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.main__cards-template-data-header-title{
+  font-size: 1.6rem;
+  color: white;
+}
+.main__cards-template-data-content-hours{
+  font-size: 2.2rem;
+  font-weight: lighter;
+  color: white;
+}
+.main__cards-template-data-content-description{
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
 }
 
 

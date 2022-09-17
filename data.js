@@ -1,4 +1,4 @@
-[
+const data = [
   {
     "title": "Work",
     "timeframes": {
@@ -102,3 +102,5 @@
     }
   }
 ]
+
+export default data
